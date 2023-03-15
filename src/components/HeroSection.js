@@ -16,7 +16,7 @@ export default function HeroSection(props) {
         <p>{props.content4}</p>
         <h1>{props.title}</h1>
         <a href="https://www.github.com/ipranavprashant" rel="noreferrer" target="_blank"><button className="btn">GitHub</button></a>
-        <a><button className="btn">Live</button></a>
+        <a href="https://pranavprashantme.blogspot.com/2023/03/my-projects.html" rel="noreferrer" target="_blank"><button className="btn">Live</button></a>
         </div>
     </div>
   )
