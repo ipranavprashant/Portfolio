@@ -9,14 +9,14 @@ const port = process.env.PORT || 3001;
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 
-// setting the path 
-const staticpath = path.join(__dirname, "../public");
+// Serve the React app's static files
+const clientBuildPath = path.join(__dirname, "../client/build");
+app.use(express.static(clientBuildPath));
 
-// routing 
-// app.get( path, callback )
+// API routes
 app.get("/", (req, res) => {
-    res.render("index");
-})
+    res.sendFile(path.join(clientBuildPath, "index.html"));
+});
 
 app.post('/contact', async (req, res) => {
     console.log(req.body);
@@ -40,3 +40,6 @@ app.post('/contact', async (req, res) => {
 app.listen(port, () => {
     console.log(`server is running at port no ${port}`);
 })
+
+
+
