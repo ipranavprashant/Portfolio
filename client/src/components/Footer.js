@@ -7,7 +7,8 @@ import {
   FaFacebook,
   FaTwitter,
   FaLinkedin,
-  FaInstagram
+  FaInstagram,
+  FaGithub
 } from "react-icons/fa";
 
 const Footer = () => {
@@ -67,6 +68,12 @@ const Footer = () => {
             </a>
             <a href="https://www.linkedin.com/in/pranavprashant/" target="_blank" rel="noopener noreferrer">
               <FaLinkedin
+                size={30}
+                style={{ color: "#fff", marginRight: "1rem" }}
+              />
+            </a>
+            <a href="https://www.github.com/ipranavprashant/" target="_blank" rel="noopener noreferrer">
+              <FaGithub
                 size={30}
                 style={{ color: "#fff", marginRight: "1rem" }}
               />
