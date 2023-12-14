@@ -11,7 +11,7 @@ const AboutContent = () => {
       <div className="left">
         <h1>Who Am I?</h1>
         <p>
-        A passionate learner, an ML Enthusiast and a Full Stack Web Developer, who predominantly works with the MERN
+        A passionate learner, an Open Source Enthusiast and a Full Stack Web Developer, who predominantly works with the MERN
 stack. I am a keen learner who is looking forward to working with emerging technologies and passionate about
 widening the spectrum of my knowledge horizons.
         </p>
