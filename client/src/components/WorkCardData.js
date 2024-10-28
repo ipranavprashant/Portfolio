@@ -16,6 +16,13 @@ const ProjectCardData = [
   },
   {
     imgsrc: react1,
+    title: "Meesho Clone",
+    text: "A replica of the Meesho e-commerce platform, this clone features a clean, intuitive UI and essential functionalities, such as product browsing, search, and a simulated cart. Developed with a focus on frontend development using React to offer a seamless user experience.",
+    view: "https://meeshoclonebypranav.netlify.app/",
+    source: "https://github.com/ipranavprashant/Meesho-Clone",
+  },
+  {
+    imgsrc: react1,
     title: "Vertex Classes : Ed-Tech",
     text: "Developing a full-stack EdTech platform with login functionalities and session management for student enrollment and course management, providing seamless registration processes, course selection, and comprehensive management tools.",
     view: "https://vertexclass.co.in",
