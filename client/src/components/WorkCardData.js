@@ -23,32 +23,12 @@ const ProjectCardData = [
   },
   {
     imgsrc: react1,
-    title: "Vertex Classes : Ed-Tech",
-    text: "Developing a full-stack EdTech platform with login functionalities and session management for student enrollment and course management, providing seamless registration processes, course selection, and comprehensive management tools.",
-    view: "https://vertexclass.co.in",
-    source: "https://github.com/ipranavprashant/Vertex-Classes",
+    title: "Gmail Clone",
+    text: "A full-stack replica of the Gmail platform, featuring the exact UI, along with backend functionalities such as email storage, user authentication, and message handling. The build is focussed on realistic user experience. \n PS: You are required to log in to check this one (test user is provided)!",
+    view: "https://gmailclonebypranav.netlify.app/",
+    source: "https://github.com/ipranavprashant/Gmail-Clone",
   },
-  {
-    imgsrc: react1,
-    title: "Ping Me the Link!",
-    text: "Developed a virtual data server as a hobby project named 'Ping Me the Link.' This file-sharing application is optimized for closed environments, generating links for uploaded files that others can download, all without requiring an internet connection!",
-    view: "https://github.com/ipranavprashant/File-Sharing-App",
-    source: "https://github.com/ipranavprashant/File-Sharing-App",
-  },
-  {
-    imgsrc: native,
-    title: "Plate2Purpose : Android/IOS",
-    text: "A cross platform mobile app, that is dedicated to fighting food waste and hunger. It helps hotel realise the excess foods they make. It creates a sustainable ecosystem that not only reduces food waste but also addresses the critical issue of hunger in communities.",
-    view: "https://github.com/ipranavprashant/Plate2Purpose",
-    source: "https://github.com/ipranavprashant/Plate2Purpose",
-  },
-  {
-    imgsrc: react1,
-    title: "FOSSCell NIT Calicut",
-    text: "Developed in a team the oﬃcial Website aimed at assisting individuals interested in staying informedabout the world of open source technology.",
-    view: "https://foss-cell.netlify.app/",
-    source: "https://github.com/FOSSCellNITCalicut/FossCellNITC",
-  },
+
   {
     imgsrc: react1,
     title: "Enquire Quiz Club's Website",
@@ -64,6 +44,36 @@ const ProjectCardData = [
     source:
       "https://github.com/ipranavprashant/Lost-and-Found-Management-System",
   },
+
+  {
+    imgsrc: react1,
+    title: "Vertex Classes : Ed-Tech",
+    text: "Developing a full-stack EdTech platform with login functionalities and session management for student enrollment and course management, providing seamless registration processes, course selection, and comprehensive management tools.",
+    view: "https://vertexclass.co.in",
+    source: "https://github.com/ipranavprashant/Vertex-Classes",
+  },
+  {
+    imgsrc: react1,
+    title: "FOSSCell NIT Calicut",
+    text: "Developed in a team the oﬃcial Website aimed at assisting individuals interested in staying informedabout the world of open source technology.",
+    view: "https://foss-cell.netlify.app/",
+    source: "https://github.com/FOSSCellNITCalicut/FossCellNITC",
+  },
+
+  {
+    imgsrc: react1,
+    title: "Nireekshan AI - Platform Under Central Govt.",
+    text: "In Progress!",
+    view: "https://nireekshanai.netlify.app/",
+    source: "https://github.com/ipranavprashant/NireekshanAI",
+  },
+  {
+    imgsrc: react1,
+    title: "Ping Me the Link!",
+    text: "Developed a virtual data server as a hobby project named 'Ping Me the Link.' This file-sharing application is optimized for closed environments, generating links for uploaded files that others can download, all without requiring an internet connection!",
+    view: "https://github.com/ipranavprashant/File-Sharing-App",
+    source: "https://github.com/ipranavprashant/File-Sharing-App",
+  },
   {
     imgsrc: react1,
     title: "Google WoW : Kerala Chapter",
@@ -72,12 +82,13 @@ const ProjectCardData = [
     source: "https://github.com/ipranavprashant/googlewow",
   },
   {
-    imgsrc: react1,
-    title: "Nireekshan AI - Platform Under Central Govt.",
-    text: "In Progress!",
-    view: "https://nireekshanai.netlify.app/",
-    source: "https://github.com/ipranavprashant/NireekshanAI",
+    imgsrc: native,
+    title: "Plate2Purpose : Android/IOS",
+    text: "A cross platform mobile app, that is dedicated to fighting food waste and hunger. It helps hotel realise the excess foods they make. It creates a sustainable ecosystem that not only reduces food waste but also addresses the critical issue of hunger in communities.",
+    view: "https://github.com/ipranavprashant/Plate2Purpose",
+    source: "https://github.com/ipranavprashant/Plate2Purpose",
   },
+
   {
     imgsrc: react1,
     title: "Weather App",
