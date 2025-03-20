@@ -14,6 +14,24 @@ const ProjectCardData = [
     view: "https://the-ultimate-coding-compiler.netlify.app/problems/0",
     source: "https://github.com/ipranavprashant/Online-Judge",
   },
+
+  {
+    imgsrc: react1,
+    title: "Petri Net Reachability Visualizer & GAL Code Simulator",
+    text: "Built a full-stack formal verification tool for Petri nets using GAL (Guarded Action Language). Parsed user-defined agents to generate valid GAL transitions with guards and actions. Implemented a custom Petri Net Simulator in Python with dynamic guard evaluation and randomized trace generation. Designed an interactive React-based frontend with Tailwind, React Flow, and Framer Motion for graph-based trace visualization. Deployed a responsive UI with modular components, state validation, and transition tracking.",
+    view: "https://github.com/ipranavprashant/Reachability-Analysis-of-R-Systems/tree/main/ReachabilityAndSafetyCheckingTool",
+    source:
+      "https://github.com/ipranavprashant/Reachability-Analysis-of-R-Systems/tree/main/ReachabilityAndSafetyCheckingTool",
+  },
+
+  {
+    imgsrc: react1,
+    title: "Flash Flood Data Pipeline",
+    text: "Engineered a robust data pipeline to collect, process, and transmit real-time flash flood data. Implemented multi-session data fetching for concurrent data retrieval, optimized data structuring in spreadsheets for efficient storage, and established WebSocket-based real-time data transmission to the frontend. This project showcases expertise in asynchronous programming, data processing, and live data streaming.",
+    view: "https://github.com/ipranavprashant/FlashFlood-DataPipeline", // Replace with actual link if available
+    source: "https://github.com/ipranavprashant/FlashFlood-DataPipeline", // Replace with actual link if available
+  },
+
   {
     imgsrc: react1,
     title: "Meesho Clone",
